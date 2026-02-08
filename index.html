@@ -164,7 +164,7 @@
 </head>
 <body>
 
-<!-- ================= Floating Bar ================= -->
+<!-- ================= Floating Bar *mostly directly from qu website================= -->
 <div class="qu-style-floating-bar" id="delayed-floating-bar">
 
   <!-- Accessibility -->
@@ -221,17 +221,32 @@
   </div>
 
   <div class="panel-content">
-    <div class="grid">
-      <div class="tool">📖<span>قارئ الصفحة</span></div>
-      <div class="tool">🤟<span>لغة الإشارة</span></div>
-      <div class="tool">🖱️<span>المؤشر</span></div>
-      <div class="tool">☀️<span>تباين الصفحة</span></div>
-      <div class="tool">🔠<span>نص أكبر</span></div>
-      <div class="tool">Aa<span>خط بسيط</span></div>
-      <div class="tool">↔️<span>تباعد الأحرف</span></div>
-      <div class="tool">🌙<span>التحكم بالتشبع</span></div>
+  <div class="grid">
+    <div class="tool">📖<span>قارئ الصفحة</span></div>
+
+    <!-- Sign Language Updated -->
+    <div class="tool" id="MrSignLanguage" title="الترجمة إلى لغة الإشارة">
+      <img id="MrSignLanguageimg"
+           class="MrMuiIcons mr-tooltip"
+           alt="Sign Language"
+           src="https://cdn.mindrocketsapis.com/client/imgs/deaficon111.png"
+           width="20" height="20"
+           mr-org-fnt-size="16px"
+           mr-allow-long="true">
+      <label for="MrSignLanguageimg" class="MrTabsButtonsLabel">
+        لغة الإشارة
+      </label>
     </div>
+
+    <div class="tool">🖱️<span>المؤشر</span></div>
+    <div class="tool">☀️<span>تباين الصفحة</span></div>
+    <div class="tool">🔠<span>نص أكبر</span></div>
+    <div class="tool">Aa<span>خط بسيط</span></div>
+    <div class="tool">↔️<span>تباعد الأحرف</span></div>
+    <div class="tool">🌙<span>التحكم بالتشبع</span></div>
   </div>
+</div>
+
 
   <div class="panel-footer">
     <button class="reset-btn">إعادة ضبط الإعدادات</button>
